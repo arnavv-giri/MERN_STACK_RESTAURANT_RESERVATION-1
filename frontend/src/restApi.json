@@ -5,118 +5,328 @@
                 "id": 1,
                 "image": "./quality_food.svg",
                 "title": "QUALITY FOOD",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "ਸਾਡੇ ਕੋਲ ਸਭ ਤੋਂ ਤਾਜ਼ਾ ਅਤੇ ਸਵਾਦਿਸ਼ਟ ਖਾਣਾ ਹੈ। ਅਸੀਂ ਸਿਰਫ਼ ਉੱਚ ਗੁਣਵੱਤਾ ਵਾਲੇ ਸਮੱਗਰੀ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਾਂ।" 
             },
             {
                 "id": 2,
                 "image": "./super_taste.svg",
                 "title": "SUPER TASTE",
-                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing sit amet elit. Sit voluptates quaerat pariatur." 
+                "description": "ਸਾਡਾ ਖਾਣਾ ਪੰਜਾਬੀ ਸੱਭਿਆਚਾਰ ਦੇ ਅਸਲੀ ਸਵਾਦ ਨਾਲ ਭਰਪੂਰ ਹੈ। ਹਰ ਨਿਵਾਲਾ ਦਿਲ ਨੂੰ ਛੂਹਦਾ ਹੈ।" 
             },
             {
                 "id": 3,
                 "image": "./fast_delivery.svg",
                 "title": "FAST DELIVERY",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "ਅਸੀਂ ਤੁਹਾਡੇ ਘਰ ਤੱਕ ਗਰਮ ਅਤੇ ਤਾਜ਼ਾ ਖਾਣਾ ਜਲਦੀ ਪਹੁੰਚਾਉਂਦੇ ਹਾਂ। ਸਮੇਂ ਦੀ ਪਾਬੰਦੀ ਸਾਡਾ ਵਾਅਦਾ ਹੈ।" 
             }
         ],
         "dishes": [
             {
                 "id": 1,
-                "image": "./dinner1.jpeg",
-                "title": "ROASTED LAMB RUMP",
-                "category": "Dinner"
+                "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&h=300&fit=crop",
+                "title": "BUTTER CHICKEN",
+                "category": "Punjabi",
+                "price": "₹350"
             },
             {
                 "id": 2,
-                "image": "./dinner2.png",
-                "title": "CITRUS CURED SALMON",
-                "category": "Dinner"
+                "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop",
+                "title": "SARSON DA SAAG",
+                "category": "Punjabi",
+                "price": "₹280"
             },
             {
                 "id": 3,
-                "image": "./breakfast1.png",
-                "title": "PAN SEARED SEA BASS",
-                "category": "Breakfast"
+                "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=400&h=300&fit=crop",
+                "title": "CHOLE BHATURE",
+                "category": "Punjabi",
+                "price": "₹180"
             },
             {
                 "id": 4,
-                "image": "./dinner3.png",
-                "title": "STUFFED STRAWBERRY",
-                "category": "Dinner"
+                "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop",
+                "title": "SAMOSA",
+                "category": "Punjabi",
+                "price": "₹120"
             },
             {
                 "id": 5,
-                "image": "./lunch1.png",
-                "title": "BEEF BURGER MEAL",
-                "category": "Lunch"
+                "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop",
+                "title": "CHICKEN BURGER",
+                "category": "Western",
+                "price": "₹250"
             },
             {
                 "id": 6,
-                "image": "./dinner4.png",
-                "title": "MUSSELS SOUP",
-                "category": "Dinner"
+                "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop",
+                "title": "PASTA ALFREDO",
+                "category": "Western",
+                "price": "₹320"
             },
             {
                 "id": 7,
-                "image": "./dinner5.png",
-                "title": "ITALIAN SPAGHETTI",
-                "category": "Dinner"
+                "image": "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?w=400&h=300&fit=crop",
+                "title": "GRILLED SANDWICH",
+                "category": "Western",
+                "price": "₹150"
             },
             {
                 "id": 8,
-                "image": "./dinner6.png",
-                "title": "GRILLED FISH",
-                "category": "Dinner"
+                "image": "https://images.unsplash.com/photo-1544943910-4c1dc44aab44?w=400&h=300&fit=crop",
+                "title": "FISH & CHIPS",
+                "category": "Western",
+                "price": "₹380"
             }
         ],
+        "fullMenu": {
+            "vegetarian": {
+                "starters": [
+                    {
+                        "id": 1,
+                        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop",
+                        "title": "SAMOSA",
+                        "price": "₹60"
+                    },
+                    {
+                        "id": 2,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "PANEER TIKKA",
+                        "price": "₹180"
+                    },
+                    {
+                        "id": 3,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "ALOO TIKKI",
+                        "price": "₹80"
+                    },
+                    {
+                        "id": 4,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "VEG SPRING ROLLS",
+                        "price": "₹120"
+                    },
+                    {
+                        "id": 5,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "STUFFED MUSHROOMS",
+                        "price": "₹150"
+                    }
+                ],
+                "main_course": [
+                    {
+                        "id": 6,
+                        "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop",
+                        "title": "SARSON DA SAAG",
+                        "price": "₹200"
+                    },
+                    {
+                        "id": 7,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "DAL MAKHANI",
+                        "price": "₹180"
+                    },
+                    {
+                        "id": 8,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "PALAK PANEER",
+                        "price": "₹220"
+                    },
+                    {
+                        "id": 9,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "ALOO GOBI",
+                        "price": "₹160"
+                    },
+                    {
+                        "id": 10,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "BHINDI MASALA",
+                        "price": "₹150"
+                    },
+                    {
+                        "id": 11,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "BAINGAN BHARTA",
+                        "price": "₹170"
+                    },
+                    {
+                        "id": 12,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "PANEER BUTTER MASALA",
+                        "price": "₹240"
+                    },
+                    {
+                        "id": 13,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "RAJMA CHAWAL",
+                        "price": "₹180"
+                    },
+                    {
+                        "id": 14,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "KADHI PAKORA",
+                        "price": "₹160"
+                    },
+                    {
+                        "id": 15,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "VEG BIRYANI",
+                        "price": "₹200"
+                    },
+                    {
+                        "id": 16,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "MUSHROOM CURRY",
+                        "price": "₹190"
+                    },
+                    {
+                        "id": 17,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "VEG PASTA",
+                        "price": "₹220"
+                    },
+                    {
+                        "id": 18,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "MARGHERITA PIZZA",
+                        "price": "₹250"
+                    }
+                ],
+                "desserts": [
+                    {
+                        "id": 19,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "GULAB JAMUN",
+                        "price": "₹80"
+                    },
+                    {
+                        "id": 20,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "GAJAR HALWA",
+                        "price": "₹100"
+                    },
+                    {
+                        "id": 21,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "KHEER",
+                        "price": "₹90"
+                    },
+                    {
+                        "id": 22,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "JALEBI",
+                        "price": "₹70"
+                    },
+                    {
+                        "id": 23,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "CHOCOLATE CAKE",
+                        "price": "₹150"
+                    }
+                ]
+            },
+            "non_vegetarian": {
+                "starters": [
+                    {
+                        "id": 24,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "CHICKEN TIKKA",
+                        "price": "₹220"
+                    },
+                    {
+                        "id": 25,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "TANDOORI CHICKEN",
+                        "price": "₹280"
+                    },
+                    {
+                        "id": 26,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "CHICKEN WINGS",
+                        "price": "₹200"
+                    }
+                ],
+                "main_course": [
+                    {
+                        "id": 27,
+                        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&h=300&fit=crop",
+                        "title": "BUTTER CHICKEN",
+                        "price": "₹300"
+                    },
+                    {
+                        "id": 28,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "CHICKEN BIRYANI",
+                        "price": "₹250"
+                    },
+                    {
+                        "id": 29,
+                        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+                        "title": "MUTTON CURRY",
+                        "price": "₹350"
+                    },
+                    {
+                        "id": 30,
+                        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop",
+                        "title": "CHICKEN BURGER",
+                        "price": "₹180"
+                    },
+                    {
+                        "id": 31,
+                        "image": "https://images.unsplash.com/photo-1544943910-4c1dc44aab44?w=400&h=300&fit=crop",
+                        "title": "FISH & CHIPS",
+                        "price": "₹280"
+                    }
+                ]
+            }
+        },
         "team": [
             {
                 "id": 1,
-                "image": "./team_member_1.png",
-                "name": "JOHNATHAN TYLER",
+                "image": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=300&h=300&fit=crop&crop=face",
+                "name": "GURPREET SINGH",
                 "designation": "Founder & Head Chef"
             },
             {
                 "id": 2,
-                "image": "./team_member_2.png",
-                "name": "WADE WARREN",
-                "designation": "Sous Chef"
+                "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=300&h=300&fit=crop&crop=face",
+                "name": "RAJESH KUMAR",
+                "designation": "Punjabi Cuisine Chef"
             },
             {
                 "id": 3,
-                "image": "./team_member_3.png",
-                "name": "JHON DOE",
-                "designation": "Fast Food Chef"
+                "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=300&h=300&fit=crop&crop=face",
+                "name": "MICHAEL BROWN",
+                "designation": "Western Cuisine Chef"
             },
             {
                 "id": 4,
-                "image": "./team_member_4.png",
-                "name": "ALEX COAL",
+                "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=300&fit=crop&crop=face",
+                "name": "HARPREET KAUR",
                 "designation": "Senior Chef"
             }
         ],
         "testimonials": [
             {
                 "id": 1,
-                "image": "./review1.png",
-                "description": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus.",
-                "rating": 4,
-                "userName": "Jane Cooper"
+                "image": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+                "description": "Best Punjabi food in the city! The butter chicken and naan are absolutely delicious. Apna Dhaba feels like home.",
+                "rating": 5,
+                "userName": "Priya Sharma"
             },
             {
                 "id": 2,
-                "image": "./review2.png",
-                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+                "description": "Amazing fusion of Punjabi and Western dishes. The chole bhature and pasta both are excellent. Great service too!",
                 "rating": 4.5,
-                "userName": "Esther Howard"
+                "userName": "Rohit Patel"
             },
             {
                 "id": 3,
-                "image": "./review3.png",
-                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+                "description": "Authentic Punjabi flavors with modern presentation. The sarson da saag reminds me of my grandmother's cooking. Highly recommended!",
                 "rating": 5,
-                "userName": "Guy Hawkins"
+                "userName": "Simran Kaur"
             }
         ],
         "who_we_are": [
@@ -138,7 +348,7 @@
             {
                 "id": 4,
                 "number": "200",
-                "title": "Food Dishes"
+                "title": "Delicious Dishes"
             }
         ],
         "navbarLinks": [
@@ -157,11 +367,7 @@
                 "title": "SERVICES",
                 "link": "qualities"
             },
-            {
-                "id": 4,
-                "title": "TEAM",
-                "link": "team"
-            },
+            
             {
                 "id": 5,
                 "title": "RESERVATION",

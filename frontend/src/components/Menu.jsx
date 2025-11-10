@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {data} from '../restApi.json'
+import MenuModal from './MenuModal'
 const Menu = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
       <section className='menu' id='menu'>
@@ -15,13 +17,15 @@ const Menu = () => {
                         <div className="card" key={element.id}>
                                 <img src={element.image} alt={element.title} />
                                 <h3>{element.title}</h3>
-                                <button>{element.category}</button>
+                                <p className="price">{element.price}</p>
+                                <button onClick={() => setMenuOpen(true)}>{element.category}</button>
                         </div>
                     ))
                 }   
             </div>
         </div>
       </section>
+      <MenuModal isOpen={menuOpen} onClose={() => setMenuOpen(false)} />
     </>
   )
 }

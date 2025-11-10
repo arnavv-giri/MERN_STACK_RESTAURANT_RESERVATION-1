@@ -17,8 +17,7 @@ const WhoAreWe = () => {
             }
           </div>
           <div className="image_banner">
-            <img className='gradient_bg' src="center.svg" alt="gradientBg" />
-            <img src="whoweare.png" alt="food" />
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&h=600&fit=crop" alt="food" />
           </div>
           <div className="text_banner">
             {
